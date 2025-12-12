@@ -1,0 +1,10 @@
+torch
+torchvision
+numpy
+gymnasium
+gymnasium[atari]
+opencv-python
+matplotlib
+tensorboard
+tqdm
+protobuf==3.20.3
