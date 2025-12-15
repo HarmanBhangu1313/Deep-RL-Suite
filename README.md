@@ -105,7 +105,7 @@ SAC
     
 ---
 
-Environment Validation
+## Environment Validation
 
 To demonstrate robustness and generalization, the algorithms are evaluated on multiple environments with different dynamics, reward structures, and action spaces:
 
