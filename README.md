@@ -104,6 +104,24 @@ SAC
 	•	Off-policy replay
     
 ---
+
+Environment Validation
+
+To demonstrate robustness and generalization, the algorithms are evaluated on multiple environments with different dynamics, reward structures, and action spaces:
+
+Discrete Control (Atari-style)
+	•	Kung-Fu Master
+	•	Pacman
+
+Continuous Control (Box2D)
+	•	LunarLander-v2
+
+These environments test:
+	•	sparse vs dense rewards
+	•	discrete vs continuous action spaces
+	•	stability under noisy gradients
+
+---
 ## installations
 git clone <https://github.com/HarmanBhangu1313/Deep-RL-Suite>
 cd deep-rl-suite
