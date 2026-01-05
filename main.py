@@ -9,7 +9,7 @@ from core.wrappers import make_env
 
 
 def load_config(path):
-    """Load JSON/YAML config file if provided."""
+    
     if path.endswith(".json"):
         return json.load(open(path, "r"))
     elif path.endswith(".yaml") or path.endswith(".yml"):
